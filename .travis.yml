@@ -10,7 +10,7 @@ before_script:
   - sudo /etc/init.d/mysql start
     
 before_install:
-  - sudo mysql -e 'CREATE DATABASE tka_2017b;'
+  - sudo mysql -e 'CREATE DATABASE e1401150;'
 deploy:
  provider: heroku
  api-key: 
